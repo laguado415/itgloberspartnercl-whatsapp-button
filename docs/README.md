@@ -1,6 +1,6 @@
 # WhatApp Button Component
 
-Componente de botón de WhatsApp, responsable de redirigir a la App de WhatsApp 
+Componente botón de WhatsApp, responsable de redirigir a la App de WhatsApp 
 
 <div align="center">
 
@@ -10,7 +10,7 @@ Componente de botón de WhatsApp, responsable de redirigir a la App de WhatsApp
   
 ## Configuración de uso
 
-Para la configuracion se usara los valores por defecto como nombres de componentes, si pezonaliza el repositorio cambiaran algunos nombres como los de vendor, etc. 
+Para la configuracion se usara los valores por defecto como nombres de componentes, si perzonaliza el repositorio cambiaran algunos nombres como los de vendor, etc. 
 
 ###### 1 - Importe las dependecias al ` manifest.json`
 
@@ -38,15 +38,13 @@ Para la configuracion se usara los valores por defecto como nombres de component
 ## Configuración repositorio 
 ### Paso 1 - Clonación del repositorio
 
-[Clonar](https://github.com/vtex-apps/react-app-template) el repositorio react-app-template para empezar con lo básico en cuanto a configuración inicial, una vez en la pagina del repositorio de github; hay la opción que dice `Use this template`, para hacer una copia a nuestro repositorio.
+Para iniciar la [Clonación](https://github.com/vtex-apps/react-app-template) debemos entrar a la pagina del repositorio de github una vez ahí busca la opción que dice `Use this template`, para hacer una copia a nuestro repositorio.
 
 Luego, acceda al directorio del repositorio usando su terminal.
 
-### Paso 2 - ditar el Manifest.json
+### Paso 2 - Editar el Manifest.json
 
-Una vez en el directorio del repositorio, es hora de editar el archivo `manifest.json` de la react app template.
-
-Una vez que esté en el archivo, debe reemplazar los valores `vendor`, `name`, `version`, `title` y `description`.
+Una vez en el directorio del repositorio, es hora de editar el archivo `manifest.json` de la react app template, dentro del archivo, debe reemplazar los valores `vendor`, `name`, `version`, `title` y `description`.
 
  `vendor` es el nombre de la cuenta del partner en la que está trabajando
  `name` es el nombre de como se va a llamar su componente como dependencia
