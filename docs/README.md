@@ -83,7 +83,7 @@ Y repetiremos el mismo proceso con el `package.json` que hay dentro de la carpet
 
 ### Paso 4 - Instalar dependencias de react
 
-Para este paso debes ingresar a la carpeta de react, y una vez allí debes ejecutar en tu consola el comando
+Para este paso ingresar a la carpeta de react, y una vez allí ejecutar en tu consola el comando
 ```json
 /> yarn
 ```
