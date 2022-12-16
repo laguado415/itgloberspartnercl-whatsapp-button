@@ -104,4 +104,4 @@ Si el proceso se ejecuta sin ningún error, se mostrará el siguiente mensaje: `
 Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
 
 ## Contributors
-1. Jonathan LAguado  
+1. Jonathan Laguado  
