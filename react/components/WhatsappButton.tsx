@@ -48,9 +48,9 @@ WhatsappButton.propTypes = {
 }
 
 WhatsappButton.defaultProps = {
-  logo: 'SOY LOGO .>>>',
-  phone: '+573114907517',
-  message: 'HOLA MUNDO COMO VAMOS :<<<<',
+  logo: '',
+  phone: '',
+  message: '',
   width: 80,
   height: 80,
   background: '',
