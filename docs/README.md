@@ -1,10 +1,41 @@
 # WhatApp Button Component
 
-Botón de componente para whatsapp que recibirá un teléfono, un logo y un mensaje
+Componente de botón de WhatsApp, responsable de redirigir a la App de WhatsApp 
+
+<div align="center">
 
 ![whatsapp-button](https://raw.githubusercontent.com/laguado415/itgloberspartnercl-whatsapp-button/master/assets/img/README.png)
 
-## Configuración
+</div>
+  
+## Configuración de uso
+
+Para la configuracion se usara los valores por defecto como nombres de component, si pezonaliza el repositorio cambiaran algunos nombres como los de vendor, etc. 
+
+###### 1 - Importe las dependecias al ` manifest.json`
+
+```json
+   "dependencies": {
+    "{vendor}.whatsapp-button": "0.x"
+  }
+```
+######  2 - Agregue el WhatsApp Button component a la página que deseé que renderice este componente.
+
+######  3 - Configuré las props principalmente las propiedades logo, phone, message.
+
+## Props:
+
+| Prop name      | Type     | Description                                          | Default value |
+| -------------- | -------- | ---------------------------------------------------- | ------------- |
+| `logo`     | `String` | Imagen del logo   |  `N/A` |
+| `phone`    | `string` | Numero telefonico de la tienda |   `N/A`     |
+| `message`  | `string` | Mensaje por defectos que recibira en WhatsApp  | `hola` |
+| `width`  | `number` |  Width a imagen  |  `80`  |
+| `height`   | `number` |  Height a image | `80` |           |
+| `background` | `string` |  Backgroud del div contenedor solo se aceptan nombres de colores simples como yellow o blue, dark-green u otras variantes no son aceptadas |  `N/A` |
+| `radio`    | `number` `string` |  Background-radio los valores permitidos son: `100` o `pill` |  `N/A` |
+
+## Configuración repositorio 
 ### Paso 1 - Clonación del repositorio
 
 [Clonar](https://github.com/vtex-apps/react-app-template) el repositorio react-app-template para empezar con lo básico en cuanto a configuración inicial, una vez en la pagina del repositorio de github; hay la opción que dice `Use this template`, para hacer una copia a nuestro repositorio.
@@ -36,36 +67,7 @@ Ejemplo:
 }
 ```
 
-### Paso 3 - Configurar el builder store
-
-Para que el componente funcione correctamente se debe declara el builder store en el `manifest.json`. 
-
-Ejemplo:
-
-```json
-{
-  "builders": {
-    ...
-    "store": "0.x"
-  },
-  ...
-}
-```
-
-Luego de eso hay que crear una carpeta llamada store en la carpeta superior del componente, esa carpeta `store` tendrá un archivo llamado `interfaces.json`.
-
-Ejemplo:
-
-```json
-{
-  "name-component": {                     // El name que se declara en el manifest.json de la app vtex
-    "component": "new-name",              // El nombre del componente del cual se va a ser alimentado
-    "render": "client"                    // Esta propiedad se le instaura si sólo va a ser utilizada por el cliente
-  }
-}
-```
-
-### Paso 4 - Editar el package.json
+### Paso 3 - Editar el package.json
 
 El primer `package.json` es el global, está al lado del `manifest.json`, vamos a cambiar su `version` y `name`.
  
@@ -81,19 +83,19 @@ Ejemplo:
 
 Y repetiremos el mismo proceso con el `package.json` que hay dentro de la carpeta de react.
 
-### Paso 5 - Instalar dependencias de react
+### Paso 4 - Instalar dependencias de react
 
 Para este paso debes ingresar a la carpeta de react, y una vez allí debes ejecutar en tu consola el comando
 ```json
-partner-name-componet/react> yarn
+/> yarn
 ```
 para que se instalen todas las dependencias necesarias
 
-### Paso 6 - Crear componente
+### Paso 5 - Crear componente
 
-En la carpeta de react se debe crear el archivo con el que se va a trabajar, ejemplo: `name.tsx`, luego crear su carpeta de componentes y empezar a desarrollar
+Si desea crear un componente en la carpeta de react/components se debe crear el archivo con el que se va a trabajar, ejemplo: `name.tsx`, luego crear su carpeta de componentes y empezar a desarrollar
 
-### Paso 7 - Ejecute un preview de la tienda
+### Paso 6 - Ejecute un preview de la tienda
 
 Entonces ha llegado el momento de cargar todos los cambios que realizó en sus archivos locales a la plataforma. Para eso, use el comando `vtex link`.
 
