@@ -10,7 +10,7 @@ Componente de botón de WhatsApp, responsable de redirigir a la App de WhatsApp
   
 ## Configuración de uso
 
-Para la configuracion se usara los valores por defecto como nombres de component, si pezonaliza el repositorio cambiaran algunos nombres como los de vendor, etc. 
+Para la configuracion se usara los valores por defecto como nombres de componentes, si pezonaliza el repositorio cambiaran algunos nombres como los de vendor, etc. 
 
 ###### 1 - Importe las dependecias al ` manifest.json`
 
