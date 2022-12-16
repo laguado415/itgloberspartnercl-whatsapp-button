@@ -38,7 +38,7 @@ Para la configuracion se usara los valores por defecto como nombres de component
 ## Configuración repositorio 
 ### Paso 1 - Clonación del repositorio
 
-Para iniciar la [Clonación](https://github.com/vtex-apps/react-app-template) debemos entrar a la pagina del repositorio de github una vez ahí busca la opción que dice `Use this template`, para hacer una copia a nuestro repositorio.
+Para iniciar la [Clonación](https://github.com/vtex-apps/react-app-template) debe entrar a la pagina del repositorio de github una vez ahí buscar la opción que dice `Use this template`, para hacer una copia al repositorio.
 
 Luego, acceda al directorio del repositorio usando su terminal.
 
@@ -83,7 +83,7 @@ Y repetiremos el mismo proceso con el `package.json` que hay dentro de la carpet
 
 ### Paso 4 - Instalar dependencias de react
 
-Para este paso ingresar a la carpeta de react, y una vez allí ejecutar en tu consola el comando
+Para este paso ingresar a la carpeta de react, y una vez allí ejecutar en la consola el comando
 ```json
 /> yarn
 ```
