@@ -2,7 +2,7 @@
 
 Botón de componente para whatsapp que recibirá un teléfono, un logo y un mensaje
 
-![whatsapp-button]()
+![whatsapp-button](https://raw.githubusercontent.com/laguado415/itgloberspartnercl-whatsapp-button/master/assets/img/README.png)
 
 ## Configuración
 ### Paso 1 - Clonación del repositorio
